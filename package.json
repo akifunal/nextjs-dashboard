@@ -5,7 +5,8 @@
 		"dev": "next dev",
 		"start": "next start",
 		"lint": "next lint",
-		"type-check": "tsc --noEmit"
+		"type-check": "tsc --noEmit",
+		"seed": "node -r dotenv/config ./scripts/seed.js"
 	},
 	"dependencies": {
 		"@heroicons/react": "^2.0.18",
